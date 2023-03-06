@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin":{
+  "bin": {
     "hsf-cli": "bin/index.js"
   },
   "directories": {
