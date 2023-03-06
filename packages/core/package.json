@@ -9,6 +9,9 @@
   "bin": {
     "hsf-cli": "bin/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -16,11 +19,7 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "gitHead": "fe58138f58db6159cc2fdd92d78b6b1b287e4ea3"
+  }
 }
